@@ -142,17 +142,9 @@ img {
   background-color: var(--primary-white-color);
   cursor: pointer;
   border-radius: 4px;
-  border-radius: 4px;
-  border-radius: 4px;
-  border-radius: 4px;
-  border-radius: 4px;
 }
 .button.primary {
   background-color: var(--accent-color);
-  color: var(--primary-white-color);
-  color: var(--primary-white-color);
-  color: var(--primary-white-color);
-  color: var(--primary-white-color);
   color: var(--primary-white-color);
 }
 .button.secondary {
@@ -284,6 +276,10 @@ address .contakt-footer {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
 /* групи портфоліо */
