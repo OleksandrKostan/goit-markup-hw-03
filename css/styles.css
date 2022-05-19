@@ -339,8 +339,9 @@ address .contakt-footer {
 .flex-conteiner {
   display: flex;
   flex-wrap: wrap;
+  width: 1200;
 }
-.flex-conteiner .flex-element {
+.flex-element {
   flex-basis: calc((100% - 90px) / 3);
   margin: 15px 15px;
 }
