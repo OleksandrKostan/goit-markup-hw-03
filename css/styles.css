@@ -54,7 +54,7 @@ img {
   text-decoration: none;
 }
 .logo-title {
-  color: var(--primary-white-color);
+  color: var(--primary-text-color);
 }
 
 .list {
@@ -283,7 +283,9 @@ img {
   display: inline-block;
   margin-bottom: 20px;
 }
-
+.footer .logo-title {
+  color: #ffffff;
+}
 .address a {
   display: inline-block;
   text-decoration: none;
