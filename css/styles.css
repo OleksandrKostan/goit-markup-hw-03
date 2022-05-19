@@ -283,8 +283,9 @@ img {
   display: inline-block;
   margin-bottom: 20px;
 }
+
 .footer .logo-title {
-  color: #ffffff;
+  color: var(--primary-white-color);
 }
 .address a {
   display: inline-block;
