@@ -54,7 +54,7 @@ img {
   text-decoration: none;
 }
 .logo-title {
-  color: var(--primary-text-color);
+  color: var(--primary-white-color);
 }
 
 .list {
@@ -155,7 +155,6 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  margin-right: 8px;
   padding: 6px 22px;
   border: 1px solid transparent;
   margin-bottom: 0;
@@ -196,6 +195,7 @@ img {
 .peculiarity {
   display: flex;
   flex-wrap: wrap;
+  margin-right: -30px;
 }
 .peculiarity .item {
   margin-right: 30px;
@@ -242,7 +242,6 @@ img {
   font-size: 16px;
   line-height: 1.18;
   color: #212121;
-  margin-top: 30px;
   margin-bottom: 10px;
 }
 .team-text {
@@ -250,7 +249,10 @@ img {
   font-size: 16px;
   line-height: 1.18;
   color: var(--title-text-color);
-  margin-bottom: 30px;
+}
+.name {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .commands {
   background-color: #f5f4fa;
@@ -259,6 +261,7 @@ img {
 }
 .command {
   display: flex;
+  margin-right: -30px;
 }
 .command .item {
   background-color: var(--primary-white-color);
@@ -276,44 +279,45 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-
-.footer .logo-title {
-  color: #fff;
+.footer .logo {
   display: inline-block;
   margin-bottom: 20px;
 }
 
-.address {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  color: #fff;
-  font-style: normal;
-}
-.address a:hover,
-.address a:focus {
-  color: var(--accent-color);
-}
 .address a {
   display: inline-block;
   text-decoration: none;
 }
-address .contakt-footer {
+
+.address .coords {
+  color: var(--primary-white-color);
+  font-style: normal;
+  line-height: 1.71;
+  padding-bottom: 9px;
+}
+
+.address .contact {
   color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
-  display: block;
+  font-style: normal;
+  line-height: 1.71;
+}
+.address .contact:hover,
+.address .contact:focus {
+  color: var(--accent-color);
 }
 .mail {
-  margin-top: 9px;
   margin-bottom: 9px;
 }
 
 /* portfolio */
 /* button filter */
+.filt {
+  margin-right: 8px;
+  margin-bottom: 50px;
+}
 .filter {
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
 }
 
 /* групи портфоліо */
