@@ -340,6 +340,7 @@ address .contakt-footer {
   display: flex;
   flex-wrap: wrap;
   width: 1200;
+  margin: -15px -15px;
 }
 .flex-element {
   flex-basis: calc((100% - 90px) / 3);
