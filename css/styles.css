@@ -297,7 +297,6 @@ img {
   color: var(--primary-white-color);
   font-style: normal;
   line-height: 1.71;
-  padding-bottom: 9px;
 }
 
 .address .contact {
@@ -309,19 +308,21 @@ img {
 .address .contact:focus {
   color: var(--accent-color);
 }
+.add {
+  margin-bottom: 9px;
+}
 .mail {
   margin-bottom: 9px;
 }
 
 /* portfolio */
 /* button filter */
-.filt {
-  margin-right: 8px;
-  margin-bottom: 50px;
-}
+
 .filter {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
+  margin-right: 8px;
 }
 
 /* групи портфоліо */
